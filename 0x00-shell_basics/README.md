@@ -9,3 +9,4 @@
 8 - **firstdelete**: a script that deletes the file *betty*. 
 9 - **firstdirdeletion**: a script that deletes the directory *my_first_directory* that is in the */tmp* directory.   
 10 - **back**: a script that changes the working directory to the previous one.  
+11 - **lists**: a script that lists all files in the current directory and the parent of the working directory and the */boot* directory (in this order), in long format.  
