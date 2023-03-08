@@ -4,4 +4,5 @@
 3-listfiles: a script that displays current directory contents in a long format.  
 4-listmorefiles: a script that displays current directory contents, including hidden files (starting with .).  
 5-listfilesdigitonly: a script that displays current directory contents.   
-6-firstdirectory: a script that creates a directory named 'my_first_directory' in the '/tmp/' directory.  
+6-firstdirectory: a script that creates a directory named 'my_first_directory' in the '/tmp/' directory. 
+7-movethatfile: a script that moves the file betty from '/tmp/' to '/tmp/my_first_directory'.   
