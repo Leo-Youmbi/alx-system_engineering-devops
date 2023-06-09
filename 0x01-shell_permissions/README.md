@@ -25,10 +25,10 @@
 13 - [**change_group**](./13-change_group): a script that changes the group a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.owner to *school* for the file *hello*.  
   
   
-100 - **change_owner_and_group**: a script that changes the owner to *vincent* and the group owner to *staff* for all the files and directories in the working directory.  
-101 - **symbolic_link_permissions**: a script that changes the owner and the group owner of *_hello* to *vincent* and *staff* respectively.
+100 - [**change_owner_and_group**](./100-change_owner_and_group): a script that changes the owner to *vincent* and the group owner to *staff* for all the files and directories in the working directory.  
+101 - [**symbolic_link_permissions**](./101-symbolic_link_permissions): a script that changes the owner and the group owner of *_hello* to *vincent* and *staff* respectively.
 * The file *_hello* is in the working directory
 + The file *_hello* is a symbolic link  
 
-102 - **if_only**: a script that changes the owner of the file *hello* to *betty* only if it is owned by the user *guillaume*.  
-103 - **Star_Wars**: a script that will play the *StarWars IV* episode in the terminal.
+102 - [**if_only**](./103-if_only): a script that changes the owner of the file *hello* to *betty* only if it is owned by the user *guillaume*.  
+103 - [**Star_Wars**](./103-Stars_Wars): a script that will play the *StarWars IV* episode in the terminal.
