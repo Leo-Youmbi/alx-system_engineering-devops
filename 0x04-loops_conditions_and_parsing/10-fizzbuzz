@@ -6,9 +6,9 @@
 #   Otherwise, displays the number
 
 count=1
-while [ $count -lt 100 ]
+while [ $count -lt 101 ]
 do
-	if [ $((count % 15)) -eq 0 ]
+	if [ $((count % 3)) -eq 0 ] && [ $((count % 5)) -eq 0 ]
 	then
 		echo "FizzBuzz" 
 	elif [ $((count % 3)) -eq 0 ]
