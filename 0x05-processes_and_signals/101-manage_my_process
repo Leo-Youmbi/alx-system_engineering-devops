@@ -21,11 +21,11 @@ case $arg in
 		echo "manage_my_process stopped"
 		;; 
 	"restart")
-		sudo kill -9 "$(cat "/var/run/my_process.pid")"
-		sudo rm -rf "/var/run/my_process.pid"
-		sudo ./manage_my_process &
-		sudo touch "/var/run/my_process.pid"
-		sudo bash -c "echo '$!' > '/var/run/my_process.pid'"
+		kill -9 "$(cat "/var/run/my_process.pid")"
+		rm -rf "/var/run/my_process.pid"
+		./manage_my_process &
+		touch "/var/run/my_process.pid"
+		bash -c "echo '$!' > '/var/run/my_process.pid'"
 		echo "manage_my_process restarted"
 		;;
 	*) echo "Usage: manage_my_process {start|stop|restart}";;
