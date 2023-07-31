@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+#
+
+if [ $# -ne 1 ]
+then
+	echo "Usage: manage_my_process {start|stop|restart}"
+	exit
+fi
+
+arg=$1
+case $arg in
+	"start")
+		sudo ./manage_my_process &
+		sudo touch "/var/run/my_process.pid"
+		sudo bash -c "echo "$!" > "/var/run/my_process.pid""
+		echo "manage_my_process started"
+		;;
+	"stop")
+		sudo kill "$(cat "/var/run/my_process.pid")"
+		sudo rm -rf "/var/run/my_process.pid"
+		echo "manage_my_process stopped"
+		;; 
+	"restart")
+		sudo kill "$(cat "/var/run/my_process.pid")"
+		sudo rm -rf "/var/run/my_process.pid"
+		sudo ./manage_my_process &
+		sudo touch "/var/run/my_process.pid"
+		sudo bash -c "echo "$!" > "/var/run/my_process.pid""
+		echo "manage_my_process restarted"
+		;;
+	*) echo "Usage: manage_my_process {start|stop|restart}";;
+esac
