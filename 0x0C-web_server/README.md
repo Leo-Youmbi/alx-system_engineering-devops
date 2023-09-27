@@ -25,12 +25,12 @@ At the end of this project, I was able to solve these questions:
 
 | Filename |
 | ------ |
-| [0-transfer_file](https://github.com/edward0rtiz/holberton-system_engineering-devops/blob/master/0x0C-web_server/0-transfer_file)|
-| [1-install_nginx_web_server](https://github.com/edward0rtiz/holberton-system_engineering-devops/blob/master/0x0C-web_server/1-install_nginx_web_server)|
-| [2-setup_a_domain_name](https://github.com/edward0rtiz/holberton-system_engineering-devops/blob/master/0x0C-web_server/2-setup_a_domain_name)|
-| [3-redirection](https://github.com/edward0rtiz/holberton-system_engineering-devops/blob/master/0x0C-web_server/3-redirection)|
-| [4-not_found_page_404](https://github.com/edward0rtiz/holberton-system_engineering-devops/blob/master/0x0C-web_server/4-not_found_page_404)|
-| [7-puppet_install_nginx_web_server.pp](https://github.com/edward0rtiz/holberton-system_engineering-devops/blob/master/0x0C-web_server/7-puppet_install_nginx_web_server.pp)|
+| [0-transfer_file](https://github.com/leo-youmbi/alx-system_engineering-devops/blob/master/0x0C-web_server/0-transfer_file)|
+| [1-install_nginx_web_server](https://github.com/leo-youmbi/alx-system_engineering-devops/blob/master/0x0C-web_server/1-install_nginx_web_server)|
+| [2-setup_a_domain_name](https://github.com/leo-youmbi/alx-system_engineering-devops/blob/master/0x0C-web_server/2-setup_a_domain_name)|
+| [3-redirection](https://github.com/leo-youmbi/alx-system_engineering-devops/blob/master/0x0C-web_server/3-redirection)|
+| [4-not_found_page_404](https://github.com/leo-youmbi/alx-system_engineering-devops/blob/master/0x0C-web_server/4-not_found_page_404)|
+| [7-puppet_install_nginx_web_server.pp](https://github.com/leo-youmbi/alx-system_engineering-devops/blob/master/0x0C-web_server/7-puppet_install_nginx_web_server.pp)|
 
 
 ## Additional info :construction:
