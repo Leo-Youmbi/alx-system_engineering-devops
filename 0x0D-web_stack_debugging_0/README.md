@@ -17,7 +17,7 @@ Here we can see that after starting my Docker container, I curl the port 8080 ma
 
 | Filename |
 | ------ |
-| [0-give_me_a_page](https://github.com/leo-youmbi/alx-system_engineering-devops/blob/master/0x0D-web_stack_debugging_0/0-give_me_a_page)|
+| [0-give_me_a_page](./0-give_me_a_page)|
 
 ## Additional info :construction:
 ### Resources
