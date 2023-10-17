@@ -9,9 +9,7 @@ At the end of this project, I was able to solve these questions:
 
 ## Tasks :heavy_check_mark:
 
-0. What is HTTPS? / Why do you need HTTPS? / You want to setup HTTPS on your website, where shall you place the certificate?
-1. Install the ufw firewall and setup a few rules on web-01.
-2. Firewall redirects port 8080/TCP to port 80/TCP.
+0. Install the ufw firewall and setup a few rules on web-01.
 
 
 
