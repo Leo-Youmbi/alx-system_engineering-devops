@@ -13,7 +13,7 @@ if __name__ == "__main__":
         for user in users:
             data[user['id']] = [{
                             'username': user["username"],
-                            'completed': todo['completed'],
-                            'task': todo['title']
+                            'task': todo['title'],
+                            'completed': todo['completed']
                         } for todo in todos if todo['userId'] == user['id']]
         json.dump(data, jsonFile)
