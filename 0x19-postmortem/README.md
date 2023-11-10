@@ -6,12 +6,14 @@ Our web application experienced a significant outage from 10:00 AM to 11:00 AM E
 
 ## Timeline
 
-| **10:00 AM EST** | Issue detected through monitoring alerts indicating high error rates on the user registration service.|  
-| **10:01 AM EST** | Engineering team was alerted and began investigating the issue|  
-| **10:15 AM EST** | Root cause suspected to be a memory leak in the user registration service|  
-| **10:30 AM EST** | Memory leak confirmed and mitigation measures implemented|  
-| **10:45 AM EST** | User registration service restored to normal operation|  
-| **11:00 AM EST** | Incident resolved|  
+| Time | Description |  
+| --- | --- |  
+| **10:00 AM EST** | Issue detected through monitoring alerts indicating high error rates on the user registration service. |  
+| **10:01 AM EST** | Engineering team was alerted and began investigating the issue |  
+| **10:15 AM EST** | Root cause suspected to be a memory leak in the user registration service |  
+| **10:30 AM EST** | Memory leak confirmed and mitigation measures implemented |  
+| **10:45 AM EST** | User registration service restored to normal operation |  
+| **11:00 AM EST** | Incident resolved |  
 
 ## Root Cause and Resolution
 
