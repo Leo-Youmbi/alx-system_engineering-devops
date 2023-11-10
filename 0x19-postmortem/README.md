@@ -1,7 +1,7 @@
 # 0x19. Postmortem: Web Stack Debugging Project Issue
-
+![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/294/pQ9YzVY.gif)
 ## Issue Summary
-
+![](https://th.bing.com/th/id/R.3a0d9be9e05841a2565b621ce92edbf8?rik=3qMz8bWFAyIRKw&pid=ImgRaw&r=0&sres=1&sresct=1)
 Our web application experienced a significant outage from 10:00 AM to 11:00 AM EST on November 10, 2023. During this period, the user registration service was unavailable, resulting in a 50% decrease in user sign-ups. The impact extended to our marketing team as they were unable to acquire new users during this time, leading to a 20% decrease in user acquisition rate.
 
 ## Timeline
@@ -16,6 +16,7 @@ Our web application experienced a significant outage from 10:00 AM to 11:00 AM E
 | **11:00 AM EST** | Incident resolved |  
 
 ## Root Cause and Resolution
+![](https://blog.systemsengineering.com/hs-fs/hubfs/blog-files/Root%20Cause.jpg?width=600&name=Root%20Cause.jpg)
 
 The root cause of the outage was a memory leak in the user registration service. The memory leak was caused by a bug in the service's code that resulted in memory not being released after it was no longer needed. This led to a gradual increase in memory usage over time, eventually causing the service to become unresponsive.
 
