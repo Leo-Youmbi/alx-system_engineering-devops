@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pgrep gunicorn | xargs kill -10
