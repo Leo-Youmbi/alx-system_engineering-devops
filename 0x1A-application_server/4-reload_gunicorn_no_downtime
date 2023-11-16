@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # Script that gracefully restarts the gunicorn process
-pgrep gunicorn | xargs kill -10
+pgrep gunicorn | xargs kill -HUP
